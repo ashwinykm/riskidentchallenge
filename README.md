@@ -16,3 +16,6 @@ This is to access the nginx server running as a pod inside kubernetes. It could 
 
 For Production scenario we can have multiple replicas running for the proper load balance and serving the actual traffic.
 
+# helm-chart
+
+Helm chart has also been added apart from separate deployment and service file, we can also deploy it using helm install command. the name of helmchart is helm-chart for this very sample application.  
