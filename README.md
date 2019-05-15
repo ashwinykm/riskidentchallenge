@@ -12,4 +12,7 @@ Then the image has been pushed to my docker hub repository.
 
 # Service.yaml
 
-This is to access the nginx server running as a pod inside kubernetes.
+This is to access the nginx server running as a pod inside kubernetes. It could either be accessed through ClusterIP,NodePort or Load Balancer, currently i have used Node Port to access it.
+
+For Production scenario we can have multiple replicas running for the proper load balance and serving the actual traffic.
+
